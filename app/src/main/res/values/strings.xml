@@ -1,0 +1,425 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="app_name" translatable="false">StoreApp</string>
+    <string name="action_settings" translatable="false">Cài đặt</string>
+    <string name="action_save" translatable="false">Lưu</string>
+    <string name="action_delete" translatable="false">Xóa</string>
+    <string name="action_edit" translatable="false">Chỉnh sửa</string>
+    <string name="action_refresh" translatable="false">Làm mới</string>
+
+    <string name="snackbar_action_ok" translatable="false">OK</string>
+    <string name="snackbar_action_undo" translatable="false">HOÀN TỤC</string>
+
+    <string name="transition_name_product_photo" translatable="false">StoreApp.ProductPhoto</string>
+
+    <string name="main_tab_title_products" translatable="false">Sản phẩm</string>
+    <string name="main_tab_title_suppliers" translatable="false">Nhà cung cấp</string>
+    <string name="main_tab_title_sales" translatable="false">Bán hàng</string>
+
+    <string name="product_config_title_add_product" translatable="false">Thêm sản phẩm</string>
+    <string name="product_config_title_edit_product" translatable="false">Chỉnh sửa sản phẩm</string>
+    <string name="product_config_label_name" translatable="false">Tên</string>
+    <string name="product_config_label_sku" translatable="false">SKU</string>
+    <string name="product_config_hint_description" translatable="false">Mô tả</string>
+    <string name="product_config_label_category" translatable="false">Danh mục</string>
+    <string name="product_config_label_attrs" translatable="false">Thuộc tính bổ sung</string>
+    <string name="product_config_btn_label_add_more_attrs" translatable="false">Thêm nữa</string>
+    <string name="product_config_spinner_category_prompt" translatable="false">Chọn danh mục</string>
+    <string name="product_config_attr_hint_name" translatable="false">Tên</string>
+    <string name="product_config_attr_hint_value" translatable="false">Giá trị</string>
+    <string name="product_config_empty_fields_validation_error" translatable="false">
+         Tất cả các trường đều bắt buộc ngoại trừ Thuộc tính sản phẩm và Hình ảnh.
+         Vui lòng điền và sau đó nhấp vào \'Save\'.
+     </string>
+    <string name="product_config_attrs_partial_empty_fields_validation_error" translatable="false">
+         Tìm thấy thuộc tính sản phẩm không đầy đủ.
+         Vui lòng điền các chi tiết còn thiếu và sau đó nhấp vào \'Save\'.
+     </string>
+    <string name="product_config_attrs_name_conflict_error" translatable="false">
+         Tên thuộc tính \'<xliff:g example="Width" id="attr_name">%1$s</xliff:g>\' đã được xác định nhiều lần. Loại bỏ trùng lặp.
+     </string>
+    <string name="product_config_no_product_found_error" translatable="false">
+         Không tìm thấy sản phẩm nào cho Id mặt hàng <xliff:g example="101" id="item_id">%1$d</xliff:g>
+     </string>
+    <string name="product_config_category_null_error" translatable="false">
+         Đã tìm thấy ID NULL cho Danh mục \'<xliff:g example="Thể thao" id="category_name">%1$s</xliff:g>\'. Dữ liệu có thể không nhất quán.
+     </string>
+    <string name="product_config_insert_category_error" translatable="false">
+         Không thể chèn Danh mục cho <xliff:g example="Sports" id="category_name">%1$s</xliff:g>
+     </string>
+    <string name="product_config_insert_item_error" translatable="false">
+         Không thể chèn Mục cho <xliff:g example="Bat" id="item_name">%1$s</xliff:g>
+     </string>
+
+
+
+
+
+    <string name="product_config_insert_item_addtnl_dtls_error" translatable="false">
+         Không thể chèn Thuộc tính và/hoặc Hình ảnh của Vật phẩm
+         \'<xliff:g example="Bat" id="item_name">%1$s</xliff:g>\'
+         với SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g>
+     </string>
+    <string name="product_config_update_category_error" translatable="false">
+         SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> Cập nhật: Không thể chèn Danh mục cho <xliff:g example="Sports" id="category_name"> %1$s</xliff:g>
+     </string>
+    <string name="product_config_update_item_error" translatable="false">
+         SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> Cập nhật: Không thể cập nhật dữ liệu mặt hàng
+     </string>
+    <string name="product_config_update_item_inconsistent_error" translatable="false">
+         SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> Cập nhật: Nhiều bản ghi Mặt hàng đã được cập nhật. Dữ liệu có thể không nhất quán.
+     </string>
+    <string name="product_config_update_item_addtnl_dtls_error" translatable="false">
+         SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> Cập nhật: Không thể chèn Thuộc tính và/hoặc Hình ảnh của Mặt hàng.
+     </string>
+    <string name="product_config_update_item_images_error" translatable="false">
+         SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> Cập nhật: Không thể chèn/xóa Hình ảnh của mặt hàng.
+     </string>
+    <string name="product_config_update_item_images_success" translatable="false">
+         SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> Cập nhật: (Các) hình ảnh của mặt hàng đã được cập nhật/xóa thành công.
+     </string>
+    <string name="product_config_delete_item_error" translatable="false">
+         Không thể xóa Id mục <xliff:g example="101" id="item_id">%1$d</xliff:g>
+     </string>
+    <string name="product_config_delete_product_confirm_dialog_message" translatable="false">Xóa sản phẩm?</string>
+    <string name="product_config_sku_invalid_error" translatable="false">SKU sản phẩm phải là duy nhất.\nHãy thử một mã khác.</string>
+    <string name="product_config_sku_empty_error" translatable="false">SKU sản phẩm là trường bắt buộc.</string>
+    <string name="product_config_unsaved_changes_dialog_message" translatable="false">Tìm thấy thay đổi chưa lưu?</string>
+    <string name="product_config_unsaved_changes_dialog_positive_text" translatable="false">Lưu</string>
+    <string name="product_config_unsaved_changes_dialog_negative_text" translatable="false">Hủy</string>
+    <string name="product_config_unsaved_changes_dialog_neutral_text" translatable="false">Tiếp tục chỉnh sửa</string>
+    <string name="product_config_status_loading_current_product" translatable="false">Đang tải chi tiết sản phẩm…</string>
+    <string name="product_config_status_saving" translatable="false">Đang lưu chi tiết sản phẩm…</string>
+    <string name="product_config_status_deleting" translatable="false">Đang xóa sản phẩm…</string>
+
+
+
+
+
+    <string name="product_image_title" translatable="false">Hình ảnh sản phẩm</string>
+    <string name="product_image_save_error" translatable="false">Không thể lưu ảnh đã chụp.</string>
+    <string name="product_image_disk_not_mount_save_error" translatable="false">Không thể lưu bất kỳ hình ảnh nào khi chưa kết nối bộ nhớ ngoài. Ngắt kết nối khỏi PC và thử lại.</string>
+    <string name="product_image_no_camera_hardware_error" translatable="false">Thiết bị không có phần cứng Máy ảnh để chụp ảnh.</string>
+    <string name="product_image_picker_chooser_title" translatable="false">Chọn (các) Hình ảnh cho Sản phẩm</string>
+    <string name="product_image_already_picked_message" translatable="false">Một trong (các) Ảnh được chọn đã có trong danh sách</string>
+    <string name="product_image_action_select" translatable="false">Chọn</string>
+    <string name="product_image_contextual_action_delete_title" translatable="false">Xóa ảnh</string>
+    <string name="product_image_contextual_action_delete_live_count" translatable="false">
+         <xliff:g example="10" id="image_count">%1$d</xliff:g> đã chọn
+     </string>
+    <string name="product_image_delete_error" translatable="false">Không thể xóa một số tệp hình ảnh. Điều này sẽ bao gồm các tệp KHÔNG được tạo bởi ứng dụng. Vui lòng xóa chúng theo cách thủ công sau.</string>
+    <string name="product_image_delete_success" translatable="false">Đã xóa thành công Hình ảnh Sản phẩm được chọn.</string>
+    <string name="product_image_unsaved_changes_dialog_message" translatable="false">Lưu hình ảnh đã chọn làm Mặc định?</string>
+    <string name="product_image_unsaved_changes_dialog_positive_text" translatable="false">Lưu</string>
+    <string name="product_image_unsaved_changes_dialog_negative_text" translatable="false">Bỏ qua</string>
+    <string name="product_image_status_loading_picked_single" translatable="false">Đang tải hình ảnh đã chọn…</string>
+    <string name="product_image_status_loading_picked_multiple" translatable="false">Đang tải (các) hình ảnh đã chọn…</string>
+    <string name="product_image_status_saving_capture" translatable="false">Lưu ảnh đã chụp…</string>
+    <string name="product_image_status_deleting" translatable="false">Đang xóa (các) hình ảnh…</string>
+    <string name="product_image_empty_text" translatable="false">Nhấn vào nút \"+\" bên dưới để thêm Hình ảnh cho Sản phẩm.</string>
+
+    <string name="product_image_picker_label_camera" translatable="false">Chụp\nẢnh</string>
+    <string name="product_image_picker_label_gallery" translatable="false">Chọn từ\nThư viện</string>
+    <string name="product_image_picker_action_close" translatable="false">Đóng</string>
+
+    <string name="product_list_item_add_success" translatable="false">
+         Mặt hàng mới có SKU #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> đã được thêm thành công.
+     </string>
+
+
+
+
+
+
+    <string name="product_list_item_update_success" translatable="false">
+         SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> đã cập nhật thành công.
+     </string>
+    <string name="product_list_item_delete_success" translatable="false">
+         Đã xóa thành công SKU #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g>.
+     </string>
+    <string name="product_list_load_error" translatable="false">Lỗi khi tải Sản phẩm.</string>
+    <string name="product_list_empty_text" translatable="false">Nhấn vào nút \"+\" bên dưới để ghi Sản phẩm trong Cửa hàng của bạn.</string>
+
+    <string name="supplier_config_label_name" translatable="false">Tên</string>
+    <string name="supplier_config_label_code" translatable="false">Mã</string>
+    <string name="supplier_config_title_phone_section" translatable="false">Chi tiết liên hệ: Điện thoại</string>
+    <string name="supplier_config_title_email_section" translatable="false">Chi tiết liên hệ : Email</string>
+    <string name="supplier_config_title_items_section" translatable="false">Mặt hàng của nhà cung cấp</string>
+    <string name="supplier_config_btn_label_add_phone" translatable="false">Thêm điện thoại</string>
+    <string name="supplier_config_btn_label_add_email" translatable="false">Thêm Email</string>
+    <string name="supplier_config_btn_label_add_item" translatable="false">Thêm hàng</string>
+    <string name="supplier_config_title_add_supplier" translatable="false">Thêm nhà cung cấp</string>
+    <string name="supplier_config_title_edit_supplier" translatable="false">Chỉnh sửa nhà cung cấp</string>
+    <!-- Đối với Mục Liên hệ Nhà cung cấp -->
+    <string name="supplier_config_item_contact_label_default" translatable="false">Mặc định</string>
+    <string name="supplier_config_status_loading_current_supplier" translatable="false">Đang tải chi tiết Nhà cung cấp…</string>
+    <string name="supplier_config_code_invalid_error" translatable="false">Mã nhà cung cấp phải là duy nhất.\nHãy thử một mã khác.</string>
+    <string name="supplier_config_no_supplier_found_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Không tìm thấy Nhà cung cấp nào cho Id Nhà cung cấp 101' -->
+        Không tìm thấy Nhà cung cấp nào cho Id Nhà cung cấp <xliff:g example="101" id="supplier_id">%1$d</xliff:g>
+     </string>
+    <string name="supplier_config_code_empty_error" translatable="false">Mã nhà cung cấp là trường bắt buộc.</string>
+    <string name="supplier_config_item_contact_duplicate_error" translatable="false">Không cho phép Liên hệ trùng lặp.</string>
+    <string name="supplier_config_item_contact_hint_phone" translatable="false">Số điện thoại</string>
+    <string name="supplier_config_item_product_label_price" translatable="false">
+         <!-- Kết quả sẽ là 'Giá bán:($)' -->
+        Giá bán:(<xliff:g example="$" id="currency_symbol">%1$s</xliff:g>)
+     </string>
+    <string name="supplier_config_status_saving" translatable="false">Lưu thông tin chi tiết Nhà cung cấp…</string>
+    <string name="supplier_config_status_deleting" translatable="false">Xóa nhà cung cấp…</string>
+    <string name="supplier_config_empty_fields_validation_error" translatable="false">
+         Không có trường nào có thể để trống. Vui lòng điền và sau đó nhấp vào \'Save\'.
+     </string>
+
+
+
+
+    <string name="supplier_config_phone_contact_conflict_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Số điện thoại liên hệ '9898900001' đã được xác định nhiều lần. Xóa trùng lặp.' -->
+        Điện thoại liên hệ \'<xliff:g example="9898900001" id="phone_number">%1$s</xliff:g>\' đã được xác định nhiều lần. Loại bỏ trùng lặp.
+     </string>
+    <string name="supplier_config_email_contact_conflict_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Email liên hệ 'xyz@supplier.com' đã được xác định nhiều lần. Xóa trùng lặp.' -->
+        Email liên hệ \'<xliff:g example="xyz@supplier.com" id="email_id">%1$s</xliff:g>\' đã được xác định nhiều lần. Loại bỏ trùng lặp.
+     </string>
+    <string name="supplier_config_empty_contacts_error" translatable="false">Không tìm thấy Liên hệ nào cho Nhà cung cấp. Tối thiểu một Địa chỉ liên hệ cần được định cấu hình.</string>
+    <string name="supplier_config_phone_contacts_invalid_error" translatable="false">Một số Danh bạ Điện thoại vẫn không hợp lệ. Vui lòng sửa và sau đó nhấp vào lưu.</string>
+    <string name="supplier_config_email_contacts_invalid_error" translatable="false">Một số Liên hệ Email vẫn không hợp lệ. Vui lòng sửa và sau đó nhấp vào lưu.</string>
+    <string name="supplier_config_insert_supplier_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Không thể chèn bản ghi Nhà cung cấp cho Frontline Inc.' -->
+        Không thể chèn bản ghi Nhà cung cấp cho <xliff:g example="Frontline Inc." id="supplier_name">%1$s</xliff:g>
+     </string>
+    <string name="supplier_config_insert_supplier_addtnl_dtls_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Không thể chèn Danh bạ và Mặt hàng của Nhà cung cấp cùng với Thông tin giá của họ cho Nhà cung cấp
+         'Công ty tiền tuyến' với Mã #126227' -->
+        Không thể chèn Danh bạ và Mặt hàng của Nhà cung cấp với Thông tin giá của họ cho Nhà cung cấp
+         \'<xliff:g example="Frontline Inc." id="supplier_name">%1$s</xliff:g>\'
+         với Mã #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g>
+     </string>
+
+
+
+
+    <string name="supplier_config_update_supplier_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Cập nhật mã nhà cung cấp #126227: Không thể cập nhật dữ liệu nhà cung cấp' -->
+        Mã Nhà cung cấp #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g> Cập nhật: Không thể cập nhật dữ liệu Nhà cung cấp
+     </string>
+    <string name="supplier_config_update_supplier_inconsistent_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Cập nhật mã nhà cung cấp #126227: Nhiều bản ghi Nhà cung cấp đã được cập nhật. Dữ liệu có thể không nhất quán.' -->
+        Mã Nhà cung cấp #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g> Cập nhật: Nhiều bản ghi Nhà cung cấp đã được cập nhật. Dữ liệu có thể không nhất quán.
+     </string>
+    <string name="supplier_config_update_supplier_addtnl_dtls_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Cập nhật mã nhà cung cấp #126227: Không thể chèn/xóa Danh bạ và mặt hàng của nhà cung cấp cùng với thông tin giá của họ.' -->
+        Mã Nhà cung cấp #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g> Cập nhật: Không thể chèn/xóa Danh bạ và Mặt hàng của Nhà cung cấp cùng với Thông tin Giá của họ.
+     </string>
+    <string name="supplier_config_delete_supplier_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Không thể xóa Id nhà cung cấp 101' -->
+        Không thể xóa Id nhà cung cấp <xliff:g example="101" id="supplier_id">%1$d</xliff:g>
+     </string>
+
+
+
+
+    <string name="supplier_config_delete_supplier_confirm_dialog_message" translatable="false">Xóa nhà cung cấp?</string>
+    <string name="supplier_config_unsaved_changes_dialog_message" translatable="false">Tìm thấy thay đổi chưa lưu?</string>
+    <string name="supplier_config_unsaved_changes_dialog_positive_text" translatable="false">Lưu</string>
+    <string name="supplier_config_unsaved_changes_dialog_negative_text" translatable="false">Hủy</string>
+    <string name="supplier_config_unsaved_changes_dialog_neutral_text" translatable="false">Tiếp tục chỉnh sửa</string>
+    <string name="supplier_config_product_swipe_action_success" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Mã sản phẩm #A11223445 đã bị xóa khỏi Nhà cung cấp.' -->
+        Mặt hàng SKU #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> đã bị xóa khỏi Nhà cung cấp.
+     </string>
+    <string name="supplier_config_product_swipe_action_undo_success" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Mã sản phẩm #A11223445 đã được khôi phục cho Nhà cung cấp.' -->
+        Mặt hàng SKU #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> đã được khôi phục cho Nhà cung cấp.
+     </string>
+    <string name="supplier_config_phone_number_invalid_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Số điện thoại không hợp lệ. Đảm bảo rằng nó có 4-15 chữ số.' -->
+        Số điện thoại không hợp lệ. Đảm bảo rằng nó có <xliff:g example="4" id="min_length">%1$d</xliff:g>-<xliff:g example="15" id="max_length">%2$d</xliff:g> chữ số.
+     </string>
+    <string name="supplier_config_email_invalid_error" translatable="false">Email không hợp lệ.</string>
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- STRINGS USED IN SUPPLIER PRODUCT PICKER ACTIVITY/FRAGMENT -->
+    <!-- ========================================================= -->
+    <string name="supplier_product_picker_title" translatable="false">Người chọn sản phẩm</string>
+    <string name="supplier_product_picker_search_hint" translatable="false">Tên sản phẩm/SKU/Danh mục</string>
+    <string name="supplier_product_picker_list_empty_all_picked" translatable="false">Tất cả Sản phẩm có sẵn đều đã được chọn.</string>
+    <string name="supplier_product_picker_list_empty_no_product" translatable="false">Có vẻ như không có sản phẩm nào được định cấu hình. Vui lòng thiết lập Sản phẩm trước.</string>
+    <string name="supplier_product_picker_empty_search_result" translatable="false">
+         <!-- Kết quả sẽ là 'Không thể tìm thấy bất kỳ Sản phẩm nào có Tên/SKU/Danh mục chứa A11223445. Hãy thử tìm kiếm khác.' -->
+        Không thể tìm thấy bất kỳ Sản phẩm nào có Tên/SKU/Danh mục chứa \'<xliff:g example="A11223445" id="item_name_sku_category">%1$s</xliff:g>\'. Hãy thử tìm kiếm khác.
+     </string>
+    <string name="supplier_product_picker_status_loading_products" translatable="false">Đang tải sản phẩm\ncó sẵn để chọn…</string>
+    <string name="supplier_product_picker_action_pick_live_count" translatable="false">
+         <!-- Đầu ra sẽ giống như '10 đã chọn' -->
+        <xliff:g example="10" id="product_count">%1$d</xliff:g> đã chọn
+     </string>
+    <string name="supplier_product_picker_unsaved_changes_dialog_message" translatable="false">Tìm thấy thay đổi chưa lưu?</string>
+    <string name="supplier_product_picker_unsaved_changes_dialog_positive_text" translatable="false">Lưu</string>
+    <string name="supplier_product_picker_unsaved_changes_dialog_negative_text" translatable="false">Hủy</string>
+    <string name="supplier_product_picker_unsaved_changes_dialog_neutral_text" translatable="false">Ở lại đây</string>
+
+
+
+
+    <!-- ====================================== -->
+    <!-- STRINGS USED IN SUPPLIER LIST FRAGMENT -->
+    <!-- ====================================== -->
+    <string name="supplier_list_item_products_count_desc" translatable="false">
+         <!-- Kết quả sẽ là 'Sells 22 items' -->
+        Bán <xliff:g example="22" id="item_count">%1$d</xliff:g> mặt hàng
+     </string>
+    <string name="supplier_list_empty_text" translatable="false">Nhấn vào nút \"+\" bên dưới để ghi lại Nhà cung cấp cho Cửa hàng của bạn.</string>
+    <string name="supplier_list_load_error" translatable="false">Lỗi khi tải Nhà cung cấp.</string>
+    <string name="supplier_list_item_add_success" translatable="false">
+         <!-- Kết quả sẽ là 'Nhà cung cấp mới với Mã #126227 đã được thêm thành công.' -->
+        Nhà cung cấp mới có mã #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g> đã được thêm thành công.
+     </string>
+    <string name="supplier_list_item_update_success" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Mã nhà cung cấp #126227 đã cập nhật thành công.' -->
+        Đã cập nhật thành công Mã nhà cung cấp #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g>.
+     </string>
+    <string name="supplier_list_item_delete_success" translatable="false">
+         <!-- Kết quả sẽ là 'Mã nhà cung cấp #126227 đã xóa thành công.' -->
+        Đã xóa thành công Mã nhà cung cấp #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g>.
+     </string>
+
+
+
+
+
+
+    <!-- =================================== -->
+    <!-- STRINGS USED IN SALES LIST FRAGMENT -->
+    <!-- =================================== -->
+    <string name="sales_list_item_total_available" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Tổng số lượng có sẵn : 22' -->
+        Tổng số lượng có sẵn : &lt;b&gt;<xliff:g example="22" id="quantity">%1$d</xliff:g>&lt;/b&gt;
+     </string>
+    <string name="sales_list_item_supplier_name_code_format" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Frontline Inc. (126227)' -->
+        <xliff:g example="Frontline Inc." id="supplier_name">%1$s</xliff:g> (<xliff:g example="126227" id="supplier_code">%2$s</xliff:g>)
+     </string>
+    <string name="sales_list_item_supplier_selling_price" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Bán ở mức 270,55 INR' -->
+        Bán với giá <xliff:g example="270,55 INR" id="selling_price">%1$s</xliff:g>
+     </string>
+    <string name="sales_list_item_top_supplier_title" translatable="false">Nhà cung cấp hàng đầu</string>
+    <string name="sales_list_item_action_delete_product" translatable="false">Xóa sản phẩm</string>
+    <string name="sales_list_item_action_sell" translatable="false">Bán 1</string>
+    <string name="sales_list_empty_text" translatable="false">Không có Sản phẩm nào để Bán!?\nHãy định cấu hình Sản phẩm trước rồi mới đến Nhà cung cấp để bắt đầu bán Sản phẩm tại đây.</string>
+    <string name="sales_list_item_out_of_stock" translatable="false">Hết hàng!</string>
+    <string name="sales_list_load_error" translatable="false">Lỗi khi tải Sản phẩm có dữ liệu Bán hàng.</string>
+    <string name="sales_list_item_decrease_availability_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Không thể giảm số lượng Sản phẩm #A11223445 được bán bởi Nhà cung cấp #126227.' -->
+        Không thể giảm số lượng Sản phẩm #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> do Nhà cung cấp bán #<xliff:g example="126227" id= "supplier_code">%2$s</xliff:g>.
+     </string>
+    <string name="sales_list_item_sell_success" translatable="false">
+         <!-- Kết quả sẽ là 'Một số lượng Sản phẩm #A11223445 được Nhà cung cấp #126227 bán thành công.' -->
+        Một lượng Sản phẩm #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> được Nhà cung cấp bán thành công #<xliff:g example="126227" id="supplier_code ">%2$s</xliff:g>.
+     </string>
+    <string name="sales_list_item_label_available" translatable="false">có sẵn</string>
+    <string name="sales_list_item_update_inventory_success" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Mã sản phẩm #A11223445 được cập nhật thành công với kho hàng.' -->
+        SKU mặt hàng #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g> đã cập nhật thành công kho hàng.
+     </string>
+
+
+
+
+    <!-- ============================================== -->
+    <!-- STRINGS USED IN SALES CONFIG ACTIVITY/FRAGMENT -->
+    <!-- ============================================== -->
+    <string name="sales_config_title_edit_sales" translatable="false">Chỉnh sửa doanh số</string>
+    <string name="sales_config_item_supplier_selling_price" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Bán ở mức 270,55 INR' -->
+        Bán với giá <xliff:g example="270,55 INR" id="selling_price">%1$s</xliff:g>
+     </string>
+    <string name="sales_config_title_suppliers_section" translatable="false">Nhà cung cấp</string>
+    <string name="sales_config_title_total_available" translatable="false">Tổng số có sẵn</string>
+    <string name="sales_config_item_supplier_action_procure" translatable="false">Mua hàng</string>
+    <string name="sales_config_status_loading_suppliers" translatable="false">Đang tải Nhà cung cấp\nvới chi tiết bán hàng…</string>
+    <string name="sales_config_status_save" translatable="false">Lưu dữ liệu kho của Sản phẩm…</string>
+    <string name="sales_config_supplier_swipe_action_success" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Mã nhà cung cấp #126227 đã bị xóa khỏi Sản phẩm. -->
+        Mã Nhà cung cấp #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g> đã bị xóa khỏi Sản phẩm.
+     </string>
+    <string name="sales_config_supplier_swipe_action_undo_success" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Mã nhà cung cấp #126227 đã được khôi phục cho Sản phẩm. -->
+        Mã Nhà cung cấp #<xliff:g example="126227" id="supplier_code">%1$s</xliff:g> đã được khôi phục cho Sản phẩm.
+     </string>
+    <string name="sales_config_inventory_update_error" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Không thể cập nhật kho của Sản phẩm #A11223445.' -->
+        Không thể cập nhật kho của Sản phẩm #<xliff:g example="A11223445" id="item_sku">%1$s</xliff:g>.
+     </string>
+    <string name="sales_config_unsaved_changes_dialog_message" translatable="false">Tìm thấy thay đổi chưa lưu?</string>
+    <string name="sales_config_unsaved_changes_dialog_positive_text" translatable="false">Lưu</string>
+    <string name="sales_config_unsaved_changes_dialog_negative_text" translatable="false">Hủy</string>
+    <string name="sales_config_unsaved_changes_dialog_neutral_text" translatable="false">Tiếp tục chỉnh sửa</string>
+    <string name="sales_config_delete_product_confirm_dialog_message" translatable="false">Xóa sản phẩm?</string>
+
+
+
+
+
+
+
+    <!-- =================================================== -->
+    <!-- STRINGS USED IN SALES PROCUREMENT ACTIVITY/FRAGMENT -->
+    <!-- =================================================== -->
+    <string name="sales_procurement_title" translatable="false">Mua sản phẩm</string>
+    <string name="sales_procurement_title_product_supplier" translatable="false">
+         <!-- Đầu ra sẽ giống như 'Mua sắm Sản phẩm1 (A11223445) từ Nhà cung cấp Frontline Inc. (126227)' -->
+        Thu mua\n<xliff:g example="Product1" id="product_name">%1$s</xliff:g> (<xliff:g example="A11223445" id="item_sku">%2$s</xliff:g>)\ntừ Nhà cung cấp\n<xliff:g example="Frontline Inc." id="supplier_name">%3$s</xliff:g> (<xliff:g example="126227" id="supplier_code">%4$s</xliff:g>)
+     </string>
+    <string name="sales_procurement_title_availability" translatable="false">Số lượng có sẵn tại nhà cung cấp</string>
+    <string name="sales_procurement_title_phone" translatable="false">Mua hàng qua cuộc gọi điện thoại</string>
+    <string name="sales_procurement_title_email" translatable="false">Mua hàng qua Email</string>
+    <string name="sales_procurement_hint_reqd_product_qty" translatable="false">Số lượng yêu cầu</string>
+    <string name="sales_procurement_status_loading_contacts" translatable="false">Đang tải địa chỉ liên hệ của nhà cung cấp…</string>
+    <string name="sales_procurement_no_contacts" translatable="false">Không có địa chỉ liên hệ nào để Mua sản phẩm!</string>
+    <string name="sales_procurement_email_subject" translatable="false">
+         <!-- Kết quả sẽ là 'Cần 100 số lượng Sản phẩm "Product1 (A11223445)"' -->
+        Cần <xliff:g example="100" id="quantity">%1$s</xliff:g> số lượng Sản phẩm \"<xliff:g example="Product1" id="product_name">%2$ s</xliff:g> (<xliff:g example="A11223445" id="item_sku">%3$s</xliff:g>)\"
+     </string>
+    <string name="sales_procurement_email_body" translatable="false">
+         Gửi tới Nhà cung cấp &lt;b&gt;\"<xliff:g example="Frontline Inc." id="supplier_name">%1$s</xliff:g> (<xliff:g example="126227" id="supplier_code" >%2$s</xliff:g>)\"&lt;/b&gt;,&lt;br/&gt;
+         Hiện tại chúng tôi có &lt;b&gt;<xliff:g example="100" id="quantity">%3$s</xliff:g>&lt;/b&gt; số lượng của Sản phẩm &lt;b&gt;\"<xliff:g example="Product1" id="product_name">%4$s</xliff:g> (<xliff:g example="A11223445" id="item_sku" >%5$s</xliff:g>)\"&lt;/b&gt;. Chúng tôi đang cần &lt;b&gt;<xliff:g example="100" id="quantity">%6$s</xliff:g>&lt;/b&gt; lượng để đáp ứng nhu cầu. Vui lòng giải quyết yêu cầu sớm nhất.&lt;br/&gt;&lt;br/&gt;
+         Trân trọng,&lt;br/&gt;
+         {Tên cửa hàng và địa chỉ}
+     </string>
+
+
+
+
+
+
+    <!-- ============================================= -->
+    <!-- CHUỖI ĐƯỢC SỬ DỤNG TRONG GIỚI THIỆU HOẠT ĐỘNG -->
+    <!-- ============================================= -->
+    <string name="about_title" translatable="false">Giới thiệu</string>
+    <!-- Đối với văn bản giới thiệu về Ứng dụng -->
+    <string name="about_content_intro" translatable="false">Ứng dụng được thiết kế và phát triển bởi &lt;b&gt;Kaushik N Sanji&lt;/b&gt; như một phần của khóa học dự án được thực hiện cho &lt;b&gt;Bằng cấp Nano cơ bản về Android&lt;/b&gt; khóa học được cung cấp bởi &lt;b&gt;Udacity&lt;/b&gt;.</string>
+    <!-- Đối với văn bản mô tả ngắn gọn về Ứng dụng -->
+    <string name="about_content_desc" translatable="false">
+         Ứng dụng được cấu trúc như một Ứng dụng hàng tồn kho cho phép Cửa hàng theo dõi hàng tồn kho sản phẩm của mình và ghi lại doanh số bán hàng. Nó cho phép lưu trữ mọi thông tin của Sản phẩm cùng với hình ảnh và thông tin Nhà cung cấp với giá và số lượng sẵn có để bán. Nó cũng có tính năng mua Sản phẩm từ Nhà cung cấp thông qua thông tin Liên hệ được cung cấp của Nhà cung cấp được ghi lại.
+&lt;br/&gt;&lt;br/&gt;Các biểu tượng Máy ảnh và Album được sử dụng được tạo bởi &lt;a href=&quot;https://www.flaticon.com/authors/pixel-perfect&quot; title=&quot;pixel-perfect&quot;&gt;Pixel-Perfect&lt;/a&gt; từ &lt;a href=&quot;https://www.flaticon.com/&quot; title=&quot;Flaticon&quot;&gt;www.flaticon.com&lt;/a&gt; được cấp phép bởi &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot; title=&quot;Creative Commons BỞI 3.0&quot; target=&quot;_blank&quot;&gt;CC 3.0 BY&lt;/a&gt;.&lt;br/&gt;
+     </string>
+    <!-- Liên kết đến khóa học -->
+    <string name="about_link_udacity_course" translatable="false"></string>
+    <!-- Liên kết tới danh mục đầu tư của nhà phát triển -->
+    <string name="about_link_github_profile" translatable="false"></string>
+    <!-- Liên kết tới tiểu sử của nhà phát triển -->
+    <string name="about_link_linkedin_profile" translatable="false"></string>
+    <string name="product_image_disk_not_mounted_save_error" translatable="false"></string>
+    <string name="product_config_status_loading_existing_product" translatable="false"></string>
+    <string name="sales_config_status_saving" translatable="false"></string>
+    <string name="supplier_config_status_loading_existing_supplier" translatable="false"></string>
+
+
+</resources>

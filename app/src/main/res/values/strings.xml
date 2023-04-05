@@ -404,7 +404,7 @@
     <!-- ============================================= -->
     <string name="about_title" translatable="false">Giới thiệu</string>
     <!-- Đối với văn bản giới thiệu về Ứng dụng -->
-    <string name="about_content_intro" translatable="false">Ứng dụng được thiết kế và phát triển bởi &lt;b&gt;Kaushik N Sanji&lt;/b&gt; như một phần của khóa học dự án được thực hiện cho &lt;b&gt;Bằng cấp Nano cơ bản về Android&lt;/b&gt; khóa học được cung cấp bởi &lt;b&gt;Udacity&lt;/b&gt;.</string>
+    <string name="about_content_intro" translatable="false">Ứng dụng được thiết kế và phát triển bởi &lt;b&gt;Đinh Thanh Minh&lt;/b&gt; như một phần của khóa học dự án được thực hiện cho &lt;b&gt;Bằng cấp môn cơ bản về Android&lt;/b&gt; khóa học được cung cấp bởi &lt;b&gt;FPT&lt;/b&gt;.</string>
     <!-- Đối với văn bản mô tả ngắn gọn về Ứng dụng -->
     <string name="about_content_desc" translatable="false">
          Ứng dụng được cấu trúc như một Ứng dụng hàng tồn kho cho phép Cửa hàng theo dõi hàng tồn kho sản phẩm của mình và ghi lại doanh số bán hàng. Nó cho phép lưu trữ mọi thông tin của Sản phẩm cùng với hình ảnh và thông tin Nhà cung cấp với giá và số lượng sẵn có để bán. Nó cũng có tính năng mua Sản phẩm từ Nhà cung cấp thông qua thông tin Liên hệ được cung cấp của Nhà cung cấp được ghi lại.
